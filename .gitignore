@@ -1,1 +1,19 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Windows and macOS
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Generated data and logs
 *.csv
+*.log
